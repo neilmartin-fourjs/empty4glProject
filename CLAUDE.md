@@ -119,7 +119,7 @@ Formatter settings are in `.fgl-format`:
 After a successful `fglcomp` of any Genero BDL module, also run:
 
 ```bash
-fglcomp --fo-inplace <module>.4gl
+fglcomp --format --fo-inplace <module>.4gl
 ```
 
 This applies the beautify rules to the source file in place.
